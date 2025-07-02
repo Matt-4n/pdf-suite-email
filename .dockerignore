@@ -1,0 +1,46 @@
+# Dependencies
+node_modules
+npm-debug.log*
+.npm
+
+# Runtime files
+uploads/*
+outputs/*
+merger-uploads/*
+merger-outputs/*
+logs/*
+manifests/*
+
+# Keep directory structure but ignore contents
+!uploads/.gitkeep
+!outputs/.gitkeep
+!merger-uploads/.gitkeep
+!merger-outputs/.gitkeep
+!logs/.gitkeep
+!manifests/.gitkeep
+
+# Development files
+.git
+.gitignore
+*.md
+.env.local
+.env.development
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode
+.idea
+*.swp
+*.swo
+
+# Test files
+test/
+tests/
+*.test.js
+
+# Documentation
+docs/
+*.md
